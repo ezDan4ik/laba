@@ -13,17 +13,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            string str = "1";
-            int a;
-            bool result = int.TryParse(str, out a);
-            if (result)
-            {
-                Console.WriteLine("Операция успешна");
-            }
-            else
-            {
-                Console.WriteLine("Не удалось (");
-            }
+            global::System.Console.WriteLine("Hello world!");
         }
     }
 }
